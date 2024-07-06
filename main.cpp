@@ -19,7 +19,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	//回転
 	Vector3 rotate{};
 	//カメラポジション
-	Vector3 cameraPosition{ 0.0f,15.9f,-61.49f };
+	Vector3 cameraPosition{ 0.0f,1.9f,-6.49f };
 	Vector3 cameraRotate{ 0.26f,0.0f,0.0f };
 
 	Plane plane;
@@ -27,8 +27,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	plane.nomal = { 0,5,0 };
 
 	Sphere sphere = {};
-	sphere.center = { 3,3,4 };
-	sphere.radius = 5.0f;
+	sphere.center = { 1,1,1 };
+	sphere.radius = 0.5f;
 
 	//bool flag = false;
 
